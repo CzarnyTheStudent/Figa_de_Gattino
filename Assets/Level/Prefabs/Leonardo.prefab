@@ -42,9 +42,10 @@ GameObject:
   - component: {fileID: 7133642573953316114}
   - component: {fileID: 55885873309827326}
   - component: {fileID: -1457777475586870329}
+  - component: {fileID: 7257246766687815311}
   - component: {fileID: 8073147771849423422}
   - component: {fileID: 7815662473725877313}
-  - component: {fileID: -5191724739773288984}
+  - component: {fileID: -4668021665492119278}
   m_Layer: 0
   m_Name: Leonardo
   m_TagString: Untagged
@@ -117,6 +118,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7257246766687815311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4598696954682675076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00da8b6ccb5f6d1479fda4073acdbd06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leonardosGoldAmount: 0
+  level: 1
+  componentsList:
+  - {fileID: -4668021665492119278}
 --- !u!114 &8073147771849423422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,7 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Enemy
-  movementSpeed: 5
+  movementSpeed: 0
   rotationSpeed: 5
   stoppingDistance: 1
 --- !u!114 &7815662473725877313
@@ -149,19 +166,22 @@ MonoBehaviour:
   weaponLifeTime: 0.5
   weaponPrefab: {fileID: 5211839792648163497, guid: b2a50ecb4ec394543b7fe9e5749eef6a, type: 3}
   throwPoint: {fileID: 6714720014166224673}
---- !u!114 &-5191724739773288984
+--- !u!114 &-4668021665492119278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4598696954682675076}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e37393ce1f787d14083d4d61d66fb925, type: 3}
+  m_Script: {fileID: 11500000, guid: b65e10ac6c10d9c48bbe554f64832a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 6
+  swingTime: 1
+  weaponLifeTime: 0.5
+  weaponPrefab: {fileID: 5211839792648163497, guid: c082bf2694fd0374e825e2df500aa001, type: 3}
+  throwPoint: {fileID: 6714720014166224673}
 --- !u!1001 &4460923869341081806
 PrefabInstance:
   m_ObjectHideFlags: 0

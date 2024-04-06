@@ -7,6 +7,8 @@ public class GoldAndLvlUp : MonoBehaviour
     public int leonardosGoldAmount = 0;
     public int level = 1;
 
+    public List<Component> componentsList;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Cat"))
@@ -35,6 +37,18 @@ public class GoldAndLvlUp : MonoBehaviour
         {
             leonardosGoldAmount = 0;
             level++;
+
+            for (int i = 0; i < level; i++)
+            {
+                if (componentsList[i] != null)
+                {
+                    Behaviour behaviourComponent = componentsList[i] as Behaviour;
+                    if (behaviourComponent != null)
+                    {
+                    behaviourComponent.enabled = true;
+                    }
+                }
+            }
         }
     }
 

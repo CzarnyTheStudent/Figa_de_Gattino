@@ -11,7 +11,7 @@ public class CatGoldMenagement : MonoBehaviour
     {
         if (other.CompareTag("Coin"))
         {
-            AddGold(1);
+            AddGold(20);
             Destroy(other.gameObject);
         }
     }
