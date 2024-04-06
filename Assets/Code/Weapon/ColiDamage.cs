@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class BaseWeapon : MonoBehaviour
+public class ColiDamage : MonoBehaviour
 {
     public int damageAmount = 2;
     private void OnTriggerEnter(Collider other)

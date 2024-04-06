@@ -13,7 +13,6 @@ public class SwingWeapon : MonoBehaviour
     private void Start()
     {
         StartCoroutine(StartSwingWeapon());
-        //weaponPrefab.GetComponent<Animator>();
     }
 
     IEnumerator StartSwingWeapon()
@@ -23,6 +22,7 @@ public class SwingWeapon : MonoBehaviour
             yield return new WaitForSeconds(swingTime);
             
             GameObject newWeapon = Instantiate(weaponPrefab, throwPoint.position, Quaternion.identity);
+            newWeapon.transform.SetParent(throwPoint, true);
 
             Destroy(newWeapon, weaponLifeTime);
         }

@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db18b333-0969-46bc-9341-050d8511acc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CatMove.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CatMove.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GameLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/GameLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Spawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Spawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Assasin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Assasin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" afterDir="false" />
     </list>
@@ -22,8 +16,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GameLogic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/LeaonardoHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/LeoMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/SwingWeapon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Code/Weapon/BaseWeapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Weapon/ColiDamage.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -100,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712402469148</updated>
-      <workItem from="1712402470208" duration="11825000" />
+      <workItem from="1712402470208" duration="16368000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <option name="closed" value="true" />
@@ -118,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712408042508</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="WeaponBase">
+      <option name="closed" value="true" />
+      <created>1712414920336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712414920336</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SecoundTry">
+      <option name="closed" value="true" />
+      <created>1712414987821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712414987821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +143,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First steps" />
     <MESSAGE value="Push this shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push this shit" />
+    <MESSAGE value="WeaponBase" />
+    <MESSAGE value="SecoundTry" />
+    <option name="LAST_COMMIT_MESSAGE" value="SecoundTry" />
   </component>
 </project>
