@@ -46,8 +46,7 @@ GameObject:
   - component: {fileID: 8073147771849423422}
   - component: {fileID: 7815662473725877313}
   - component: {fileID: -4668021665492119278}
-  - component: {fileID: 5572345168489216054}
-  - component: {fileID: -4668021665492119278}
+  - component: {fileID: 3869919710039563334}
   m_Layer: 0
   m_Name: Leonardo
   m_TagString: Untagged
@@ -118,7 +117,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &7257246766687815311
 MonoBehaviour:
@@ -149,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Enemy
-  movementSpeed: 0
+  movementSpeed: 2
   rotationSpeed: 5
   stoppingDistance: 1
 --- !u!114 &7815662473725877313
@@ -184,6 +183,19 @@ MonoBehaviour:
   weaponLifeTime: 0.5
   weaponPrefab: {fileID: 5211839792648163497, guid: c082bf2694fd0374e825e2df500aa001, type: 3}
   throwPoint: {fileID: 6714720014166224673}
+--- !u!114 &3869919710039563334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4598696954682675076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37393ce1f787d14083d4d61d66fb925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
 --- !u!1001 &4460923869341081806
 PrefabInstance:
   m_ObjectHideFlags: 0

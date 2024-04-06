@@ -27,6 +27,7 @@ public class BotMoveLogic : MonoBehaviour
             else // W przeciwnym razie zatrzymaj się
             {
                 isMoving = false;
+                transform.position -= direction * moveSpeed * Time.deltaTime; 
             }
         }
         else if (target != null && !isMoving) // Jeśli przeciwnik zatrzymał się i cel się oddalił, wznowienie ruchu

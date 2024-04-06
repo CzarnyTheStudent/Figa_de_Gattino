@@ -31,8 +31,7 @@ public class Assassin : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-
-        // Poczekaj przez hitTime
+        
 
         // Wróć na początkową pozycję
         elapsedTime = 0f;
