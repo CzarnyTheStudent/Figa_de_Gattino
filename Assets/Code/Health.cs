@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
         if (health < 0)
         {
             Destroy(gameObject);
+            // tutaj daæ you died
         }
     }
 
