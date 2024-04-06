@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GoldAndLvlUp : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class GoldAndLvlUp : MonoBehaviour
     public int level = 1;
 
     public List<Component> componentsList;
+
+    public TextMeshProUGUI leoGoldText;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -25,6 +28,7 @@ public class GoldAndLvlUp : MonoBehaviour
     {
         int catGoldAmount = catGoldScript.catGoldAmount;
         AddGold(catGoldAmount);
+        UpdateLeoGoldText();
         catGoldScript.catGoldAmount = 0;
     }
 
@@ -52,4 +56,9 @@ public class GoldAndLvlUp : MonoBehaviour
         }
     }
 
+    private void UpdateLeoGoldText()
+    {
+        // Aktualizuj tekst na obiekcie TextMeshPro
+        leoGoldText.text = "Leonardo's Gold: " + leonardosGoldAmount.ToString();
+    }
 }
