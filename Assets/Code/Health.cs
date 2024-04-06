@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class Health : MonoBehaviour
@@ -10,6 +11,8 @@ public class Health : MonoBehaviour
 
     public TextMeshProUGUI gameOverTimerTxt;
     public TimerScript timer;
+
+    public RectTransform bar;
 
     private void Update()
     {
@@ -24,5 +27,8 @@ public class Health : MonoBehaviour
     public void TakeDamage(int damageAmount)
     {
         health -= damageAmount;
+
+        float healthPercentage = health / 100f;
+        bar.localScale = new Vector3(healthPercentage, 1f, 1f);
     }
 }
