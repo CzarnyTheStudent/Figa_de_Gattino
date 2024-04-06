@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeaonardoHealth : MonoBehaviour
+public class Health : MonoBehaviour
 {
-    public int Health;
+    public int health;
 
     private void Update()
     {
-        if (Health == 0)
+        if (health == 0)
         {
             Destroy(gameObject);
         }
@@ -17,6 +17,6 @@ public class LeaonardoHealth : MonoBehaviour
 
     public void TakeDamage(int damageAmount)
     {
-        Health -= damageAmount;
+        health -= damageAmount;
     }
 }

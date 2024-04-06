@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: -1457777475586870329}
   - component: {fileID: 8073147771849423422}
   - component: {fileID: 7815662473725877313}
+  - component: {fileID: -5191724739773288984}
   m_Layer: 0
   m_Name: Leonardo
   m_TagString: Untagged
@@ -87,8 +88,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.69188833, y: 1, z: 0.7373763}
-  m_Center: {x: -0, y: 0, z: 0}
+  m_Size: {x: 0.8627353, y: 1, z: 0.7373763}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &-1457777475586870329
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -144,10 +145,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b65e10ac6c10d9c48bbe554f64832a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swingTime: 1
+  swingTime: 10
   weaponLifeTime: 0.5
   weaponPrefab: {fileID: 5211839792648163497, guid: b2a50ecb4ec394543b7fe9e5749eef6a, type: 3}
   throwPoint: {fileID: 6714720014166224673}
+--- !u!114 &-5191724739773288984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4598696954682675076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37393ce1f787d14083d4d61d66fb925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 6
 --- !u!1001 &4460923869341081806
 PrefabInstance:
   m_ObjectHideFlags: 0

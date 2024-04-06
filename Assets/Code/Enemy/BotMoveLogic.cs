@@ -6,7 +6,7 @@ public class BotMoveLogic : MonoBehaviour
     public float moveSpeed = 3f; // Prędkość przemieszczania przeciwnika
     public float stoppingDistance = 2f; // Odległość, w której przeciwnik zatrzyma się
 
-    private bool isMoving = true;
+    public bool isMoving = true;
 
     void Update()
     {
@@ -20,7 +20,8 @@ public class BotMoveLogic : MonoBehaviour
             // Jeśli odległość do celu jest większa niż odległość zatrzymania, przemieszczaj się w jego kierunku
             if (distanceToTarget > stoppingDistance)
             {
-                transform.Translate(direction * moveSpeed * Time.deltaTime);
+                //transform.Translate(direction * moveSpeed * Time.deltaTime);
+                transform.position += direction * moveSpeed * Time.deltaTime; 
                 transform.rotation = Quaternion.LookRotation(direction);
             }
             else // W przeciwnym razie zatrzymaj się

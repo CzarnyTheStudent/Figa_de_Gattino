@@ -819,7 +819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceFromObject: 20
   objectsToSpawn:
-  - objectToRespawn: {fileID: 5206236109184918126, guid: 3d5a3ff48303bdb4d936d875467d879e, type: 3}
+  - objectToRespawn: {fileID: 5206236109184918126, guid: 00c8be93f6c073743b9158da503a1093, type: 3}
     respawnTime: 1
   leonardoRef: {fileID: 0}
 --- !u!114 &1858424052

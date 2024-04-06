@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 7957496802692025633}
   - component: {fileID: 5773000206930972644}
   - component: {fileID: 1842489916678060817}
-  - component: {fileID: 2656713693965595631}
+  - component: {fileID: 4342070718585096617}
   m_Layer: 6
-  m_Name: Assasin
+  m_Name: Shooter
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,8 @@ Transform:
   m_LocalPosition: {x: 4.6685476, y: 1.2, z: -6.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 493241878534948441}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4098463865625344587
@@ -66,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42b697d1c39f98c41bf1299ba04bee49, type: 2}
+  - {fileID: 2100000, guid: 38c26b3b23ae0bc4cba259e8a809d0f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   moveSpeed: 3
-  stoppingDistance: 0.7
+  stoppingDistance: 10
   isMoving: 1
 --- !u!114 &1842489916678060817
 MonoBehaviour:
@@ -165,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botHealth: 2
---- !u!114 &2656713693965595631
+--- !u!114 &4342070718585096617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,9 +175,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 5206236109184918126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 870fae8737bfb3043ae89744f4a44d15, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bd97dd92b1ec464eaea1de468fdb08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitDamage: 6
-  hitTime: 1
-  pushDistance: 10
+  botMove: {fileID: 5773000206930972644}
+  bulletPrefab: {fileID: 4971383696549456308, guid: 6e57d981a846fa348879dbcb948e6cfd, type: 3}
+  bulletSpawnPoint: {fileID: 493241878534948441}
+  bulletSpeed: 10
+  fireRate: 1
+--- !u!1 &5979856827730975368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493241878534948441}
+  m_Layer: 6
+  m_Name: ShootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493241878534948441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979856827730975368}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.764}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7331517016660758622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -9,7 +9,6 @@ public class CatGoldMenagement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other);
         if (other.CompareTag("Coin"))
         {
             AddGold(1);
