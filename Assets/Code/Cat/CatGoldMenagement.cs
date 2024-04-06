@@ -9,7 +9,8 @@ public class CatGoldMenagement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other)
+        Debug.Log(other);
+        if (other.CompareTag("Coin"))
         {
             AddGold(1);
             Destroy(other.gameObject);

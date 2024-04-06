@@ -29,7 +29,7 @@ public class GoldAndLvlUp : MonoBehaviour
     private void AddGold(int amount)
     {
         leonardosGoldAmount += amount;
-        Debug.Log("Zdobyles " + amount + " z³ota! Aktualna iloœæ z³ota: " + leonardosGoldAmount);
+        Debug.Log("Zdobyles " + amount + " zÅ‚ota! Aktualna iloÅ›Ä‡ zÅ‚ota: " + leonardosGoldAmount);
 
         if (leonardosGoldAmount >= 20*level)
         {

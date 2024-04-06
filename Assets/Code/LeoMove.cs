@@ -19,7 +19,6 @@ public class LeoMove : MonoBehaviour
 
     void Update()
     {
-        
         FindNearestTarget();
         if (target != null)
         {
