@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   figa: {fileID: 1858424044}
   leonardo: {fileID: 4598696954682675076, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
+  spawner: {fileID: 0}
 --- !u!4 &670603869
 Transform:
   m_ObjectHideFlags: 0
@@ -703,10 +704,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 076d1a04370d9f048b670df105790387, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsToRespawn:
-  - {fileID: 5206236109184918126, guid: 3d5a3ff48303bdb4d936d875467d879e, type: 3}
-  respawnTime: 5
   distanceFromObject: 20
+  objectsToSpawn:
+  - objectToRespawn: {fileID: 5206236109184918126, guid: 3d5a3ff48303bdb4d936d875467d879e, type: 3}
+    respawnTime: 1
+  leonardoRef: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
