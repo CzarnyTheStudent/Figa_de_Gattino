@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b65e10ac6c10d9c48bbe554f64832a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swingTime: 10
+  swingTime: 2
   weaponLifeTime: 0.5
   weaponPrefab: {fileID: 5211839792648163497, guid: b2a50ecb4ec394543b7fe9e5749eef6a, type: 3}
   throwPoint: {fileID: 6714720014166224673}
@@ -174,13 +174,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4598696954682675076}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b65e10ac6c10d9c48bbe554f64832a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  swingTime: 1
-  weaponLifeTime: 0.5
+  swingTime: 3
+  weaponLifeTime: 1
   weaponPrefab: {fileID: 5211839792648163497, guid: c082bf2694fd0374e825e2df500aa001, type: 3}
   throwPoint: {fileID: 6714720014166224673}
 --- !u!114 &3869919710039563334
