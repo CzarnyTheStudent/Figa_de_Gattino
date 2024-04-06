@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class LeaonardoHealth : MonoBehaviour
 {
-    public int botHealth;
+    public int Health;
 
     private void Update()
     {
-        if (botHealth == 0)
+        if (Health == 0)
         {
             Destroy(gameObject);
         }
@@ -17,6 +17,6 @@ public class LeaonardoHealth : MonoBehaviour
 
     public void TakeDamage(int damageAmount)
     {
-        botHealth -= damageAmount;
+        Health -= damageAmount;
     }
 }
