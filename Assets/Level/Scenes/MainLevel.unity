@@ -593,26 +593,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1786365664494005074}
-  - {fileID: 5172536996828801355}
   - {fileID: 1055573663}
   - {fileID: 671884149}
-  - {fileID: 409214748}
-  - {fileID: 532819756}
   - {fileID: 741824748}
   - {fileID: 920704789}
   - {fileID: 959955675}
-  - {fileID: 451228771}
   - {fileID: 1303051496}
   - {fileID: 1091164707}
   - {fileID: 869405809}
-  - {fileID: 1863778810}
-  - {fileID: 224405990}
   - {fileID: 1810049354}
   - {fileID: 1242743163}
   - {fileID: 1819397277}
   - {fileID: 1663084729}
-  - {fileID: 1884959041}
   - {fileID: 1730690494}
   - {fileID: 1743591015}
   - {fileID: 1532560926}
@@ -622,37 +614,25 @@ Transform:
   - {fileID: 1489802494}
   - {fileID: 1419846848}
   - {fileID: 1843260183}
-  - {fileID: 8130592}
   - {fileID: 1702704014}
   - {fileID: 1346191110}
   - {fileID: 1689337778}
-  - {fileID: 448789367}
   - {fileID: 1642763261}
   - {fileID: 1419510935}
-  - {fileID: 302882744}
-  - {fileID: 314385022}
-  - {fileID: 41350840}
-  - {fileID: 1940303423}
   - {fileID: 1086856979}
   - {fileID: 711415692}
   - {fileID: 1016702731}
   - {fileID: 1212120130}
-  - {fileID: 1967382750}
   - {fileID: 894723998}
   - {fileID: 1398071501}
   - {fileID: 1780153208}
   - {fileID: 1432532669}
-  - {fileID: 624454609}
   - {fileID: 1681631642}
   - {fileID: 1048586488}
   - {fileID: 1832100649}
   - {fileID: 1092619347}
-  - {fileID: 589250506}
   - {fileID: 1401949712}
   - {fileID: 1174218823}
-  - {fileID: 227404291}
-  - {fileID: 375182433}
-  - {fileID: 9620772}
   - {fileID: 1818532767}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3957,6 +3937,8 @@ MonoBehaviour:
   objectsToSpawn:
   - objectToRespawn: {fileID: 5206236109184918126, guid: 00c8be93f6c073743b9158da503a1093, type: 3}
     respawnTime: 1
+  - objectToRespawn: {fileID: 5206236109184918126, guid: 00c8be93f6c073743b9158da503a1093, type: 3}
+    respawnTime: 1
   leonardoRef: {fileID: 0}
 --- !u!114 &1858424052
 MonoBehaviour:
@@ -4065,3 +4047,15 @@ SceneRoots:
   - {fileID: 1858424049}
   - {fileID: 670603869}
   - {fileID: 2999636138072384067}
+  - {fileID: 1720799584}
+  - {fileID: 1712492270}
+  - {fileID: 766206857}
+  - {fileID: 1278692120}
+  - {fileID: 751185394}
+  - {fileID: 1650775488}
+  - {fileID: 1050728412}
+  - {fileID: 1597546063}
+  - {fileID: 1538425519}
+  - {fileID: 1500083117}
+  - {fileID: 1729916361}
+  - {fileID: 811539744}

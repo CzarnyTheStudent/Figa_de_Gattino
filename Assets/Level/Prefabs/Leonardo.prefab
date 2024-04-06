@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 8073147771849423422}
   - component: {fileID: 7815662473725877313}
   - component: {fileID: -4668021665492119278}
+  - component: {fileID: 5572345168489216054}
+  - component: {fileID: -4668021665492119278}
   m_Layer: 0
   m_Name: Leonardo
   m_TagString: Untagged
