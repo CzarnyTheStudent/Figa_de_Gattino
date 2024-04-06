@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class CatGoldMenagement : MonoBehaviour
 {
     public int catGoldAmount = 0;
+    public int catPotionAmount = 0;
     public TextMeshProUGUI goldText; // Referencja do obiektu TextMeshPro
+
+    public Image potionImage;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,6 +19,13 @@ public class CatGoldMenagement : MonoBehaviour
             AddGold(20);
             Destroy(other.gameObject);
             UpdateGoldText(); // Aktualizuj tekst na obiekcie TextMeshPro
+        }
+
+        if (catPotionAmount == 0 && other.CompareTag("Potion"))
+        {
+            catPotionAmount++;
+            Destroy(other.gameObject);
+            potionImage.gameObject.SetActive(true);
         }
     }
 
