@@ -14,6 +14,7 @@ public class GameLogic : MonoBehaviour
     {
         Vector3 respawnLeo = figa.transform.position;
         GameObject leonardoInstance = Instantiate(leonardo, respawnLeo + new Vector3(5, 0 , 0), Quaternion.identity);
+        leonardoInstance.AddComponent<GoldAndLvlUp>();
 
         spawner = figa.GetComponent<Spawner>();
         spawner.leonardoRef = leonardoInstance;
