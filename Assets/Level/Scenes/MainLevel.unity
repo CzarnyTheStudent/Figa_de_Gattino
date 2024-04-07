@@ -13128,7 +13128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: objectsToSpawn.Array.data[1].respawnTime
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: objectsToSpawn.Array.data[2].respawnTime
