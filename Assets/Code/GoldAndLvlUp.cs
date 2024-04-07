@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class GoldAndLvlUp : MonoBehaviour
@@ -11,6 +12,7 @@ public class GoldAndLvlUp : MonoBehaviour
     public List<Component> componentsList;
 
     public TextMeshProUGUI leoGoldText;
+    public RectTransform lvlbar;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -37,10 +39,14 @@ public class GoldAndLvlUp : MonoBehaviour
         leonardosGoldAmount += amount;
         Debug.Log("Zdobyles " + amount + " złota! Aktualna ilość złota: " + leonardosGoldAmount);
 
+        float levelPercentage = leonardosGoldAmount / 20 * level;
+        lvlbar.localScale = new Vector3(levelPercentage, 1f, 1f);
+
         if (leonardosGoldAmount >= 20*level)
         {
             leonardosGoldAmount = 0;
             level++;
+            lvlbar.localScale = new Vector3(leonardosGoldAmount/20*level, 1f, 1f);
 
             for (int i = 0; i < level; i++)
             {

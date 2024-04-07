@@ -137,6 +137,7 @@ MonoBehaviour:
   componentsList:
   - {fileID: -4668021665492119278}
   leoGoldText: {fileID: 0}
+  lvlbar: {fileID: 0}
 --- !u!114 &8073147771849423422
 MonoBehaviour:
   m_ObjectHideFlags: 0
