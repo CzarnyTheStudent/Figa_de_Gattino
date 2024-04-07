@@ -481,8 +481,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1247682119823153195, guid: f356f475b2db04e47966cf3f6c598e0f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 787861492}
   m_SourcePrefab: {fileID: 100100000, guid: f356f475b2db04e47966cf3f6c598e0f, type: 3}
+--- !u!1 &787861491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1247682119823153195, guid: f356f475b2db04e47966cf3f6c598e0f, type: 3}
+  m_PrefabInstance: {fileID: 787861490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &787861492
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787861491}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 655b9d06f9b09494c811f5fb99971faf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1281987856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 84fb485f8056fc14b98f7d63652a2343, type: 3}
@@ -750,8 +779,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1247682119823153195, guid: 93cf472031afc5d41a1e28676f8a0728, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1444576703}
   m_SourcePrefab: {fileID: 100100000, guid: 93cf472031afc5d41a1e28676f8a0728, type: 3}
+--- !u!1 &1444576702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1247682119823153195, guid: 93cf472031afc5d41a1e28676f8a0728, type: 3}
+  m_PrefabInstance: {fileID: 1444576701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1444576703
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444576702}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4cd9c1e45a251f544a6120b2e292b773, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1617525880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -807,8 +865,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1247682119823153195, guid: 0417c9574a898854eba933f79b3c8182, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1617525882}
   m_SourcePrefab: {fileID: 100100000, guid: 0417c9574a898854eba933f79b3c8182, type: 3}
+--- !u!1 &1617525881 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1247682119823153195, guid: 0417c9574a898854eba933f79b3c8182, type: 3}
+  m_PrefabInstance: {fileID: 1617525880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1617525882
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617525881}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4e837480549e37a45abe96d9f839ac65, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1799125984
 PrefabInstance:
   m_ObjectHideFlags: 0
