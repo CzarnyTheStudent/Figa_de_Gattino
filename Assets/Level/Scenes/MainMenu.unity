@@ -353,7 +353,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: Inizio
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a70b912176e6b254cbc8173a372c5b4d, type: 2}
   m_sharedMaterial: {fileID: -4105002144546656599, guid: a70b912176e6b254cbc8173a372c5b4d, type: 2}
@@ -1506,7 +1506,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits
+  m_text: Crediti
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a70b912176e6b254cbc8173a372c5b4d, type: 2}
   m_sharedMaterial: {fileID: -4105002144546656599, guid: a70b912176e6b254cbc8173a372c5b4d, type: 2}
@@ -1641,7 +1641,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Poni\u017Cej screen kt\xF3ry sta\u0142 si\u0119 powodem takiej a nie innej
-    tematyki naszej gry ;)"
+    tematyki naszej gry ;)\n\n\n\n\n\n\n\n\n\nSopra c'\xE8 lo screenshot che \xE8
+    diventato il motivo di questo e di nessun altro argomento del nostro gioco ;)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2055,7 +2056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Exit
+  m_text: Uscita
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a70b912176e6b254cbc8173a372c5b4d, type: 2}
   m_sharedMaterial: {fileID: -4105002144546656599, guid: a70b912176e6b254cbc8173a372c5b4d, type: 2}
