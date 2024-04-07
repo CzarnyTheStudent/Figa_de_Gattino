@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db18b333-0969-46bc-9341-050d8511acc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Anim/baseWeapon/SwingMe.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/baseWeapon/SwingMe.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Shooter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Shooter.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/descending.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Angelo/descending.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/laserEyesOut.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/Architekt/ARCHITEKT2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Architekt/ARCHITEKT2.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Angelo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Angelo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +20,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Code/AngelloFailTheMission.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Cat/BossSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Cat/Meow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CoinSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/DONTFUCKINGOOUTSIDE.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,26 +44,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\kpabinia\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\kpabinia\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\kpabinia\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\kpabinia\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\kpabinia\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\kpabinia\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/../sggsg\Figa_Kitti.exe" />
@@ -113,7 +120,7 @@
       <updated>1712402469148</updated>
       <workItem from="1712402470208" duration="26019000" />
       <workItem from="1712430698759" duration="624000" />
-      <workItem from="1712466213405" duration="23307000" />
+      <workItem from="1712466213405" duration="27794000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <option name="closed" value="true" />
