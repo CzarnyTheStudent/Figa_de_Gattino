@@ -13123,8 +13123,12 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: objectsToSpawn.Array.data[0].respawnTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: objectsToSpawn.Array.data[1].respawnTime
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: objectsToSpawn.Array.data[2].respawnTime
