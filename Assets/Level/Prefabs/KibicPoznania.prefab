@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 338d985825cd39b48be0bfa7833b287b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botHealth: 2
+  botHealth: 15
   coinPrefab: {fileID: 3664029200740380941, guid: a2532d0b051c07b46ac4ab66ddf590ee, type: 3}
   potionPref: {fileID: 8070389605039313939, guid: 9eea19e20aaa9d544899e1cece672670, type: 3}
   knockbackDistance: 6
@@ -216,9 +216,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870fae8737bfb3043ae89744f4a44d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitDamage: 10
-  hitTime: 0
-  pushDistance: 1
+  hitDamage: 15
+  hitTime: 3
+  pushDistance: 2
 --- !u!114 &3750807984011841359
 MonoBehaviour:
   m_ObjectHideFlags: 0
