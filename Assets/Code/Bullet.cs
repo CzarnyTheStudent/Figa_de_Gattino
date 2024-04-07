@@ -11,13 +11,14 @@ public class Bullet : MonoBehaviour
         {
             Health health = other.gameObject.GetComponent<Health>();
             health.TakeDamage(damage);
+            Destroy(gameObject);
         }
         
         if (other.gameObject.GetComponent<CatHealth>())
         {
             CatHealth catHealth = other.gameObject.GetComponent<CatHealth>();
             catHealth.TakeDamage();
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
     }
 }

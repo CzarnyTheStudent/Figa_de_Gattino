@@ -2,25 +2,25 @@ using UnityEngine;
 
 public class CatMove : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Prędkość poruszania się postaci
-    public float rotationSpeed = 10f; // Prędkość obrotu postaci
+    public float moveSpeed = 5f; 
+    public float rotationSpeed = 10f; 
+    public Transform cameraTarget; 
+    public float cameraDistance = 5f; 
+    public float cameraHeight = 5f; 
+    [SerializeField]private Animator catAnim;
 
-    public Transform cameraTarget; // Cel kamery, którym będzie postać
-    public float cameraDistance = 5f; // Odległość kamery od postaci
-    public float cameraHeight = 5f; // Wysokość kamery nad postacią
-
-    //private Rigidbody rb;
+    private Rigidbody rb;
+    private Vector3 moveDirection = Vector3.zero;
 
     void Start()
     {
-        //rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Move();
         Rotate();
-        UpdateCameraPosition();
     }
 
     void Move()
@@ -28,28 +28,37 @@ public class CatMove : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-        Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput).normalized;
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime, Space.World);
+        moveDirection.Set(horizontalInput, 0f, verticalInput);
+        moveDirection = moveDirection.normalized * moveSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(transform.position + moveDirection);
     }
 
     void Rotate()
     {
-        if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+        if (moveDirection != Vector3.zero)
         {
-            Vector3 lookDirection = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+            Vector3 lookDirection = moveDirection;
             Quaternion rotation = Quaternion.LookRotation(lookDirection);
-            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed * Time.deltaTime);
+            rb.isKinematic = false;
+            rb.MoveRotation(Quaternion.Slerp(transform.rotation, rotation, rotationSpeed * Time.fixedDeltaTime));
+            catAnim.SetBool("Move", true);
         }
+        else
+        {
+            rb.isKinematic = true;
+            catAnim.SetBool("Move", false);
+        }
+    }
+
+    void LateUpdate()
+    {
+        UpdateCameraPosition();
     }
 
     void UpdateCameraPosition()
     {
-        // Oblicz pozycję kamery
         Vector3 cameraPosition = transform.position - new Vector3(-cameraDistance, -cameraHeight, cameraDistance);
-        // Ustaw pozycję kamery
         Camera.main.transform.position = cameraPosition;
-        // Należy pamiętać, żeby kamera zawsze patrzyła na cel (postać)
         Camera.main.transform.LookAt(cameraTarget);
     }
-    
 }

@@ -10,6 +10,8 @@ public class Spawner : MonoBehaviour
     public ObjectToSpawn[] objectsToSpawn;
     private List<Transform> spawnPoints = new List<Transform>(); // Punkty respawnu
     public GameObject leonardoRef;
+    public Collider respawnArea1;
+    public Collider respawnArea2;
 
     void Start()
     {
@@ -63,13 +65,17 @@ public class Spawner : MonoBehaviour
             yield return new WaitForSeconds(objectToSpawn.respawnTime);
             int spawnIndex = Random.Range(0, spawnPoints.Count);
 
-            // Zrespawnowanie obiektu
-          var enemy =  Instantiate(objectToSpawn.objectToRespawn, spawnPoints[spawnIndex].position, Quaternion.identity);
-          BotMoveLogic movementEne = enemy.GetComponent<BotMoveLogic>();
-          if (leonardoRef != null)
-          {
-              movementEne.target = leonardoRef.transform;
-          }
+            // Sprawdzenie, czy punkt respawnu znajduje się w jednym z obszarów
+            if (respawnArea1.bounds.Contains(spawnPoints[spawnIndex].position) || respawnArea2.bounds.Contains(spawnPoints[spawnIndex].position))
+            {
+                // Zrespawnowanie obiektu
+                var enemy = Instantiate(objectToSpawn.objectToRespawn, spawnPoints[spawnIndex].position, Quaternion.identity);
+                BotMoveLogic movementEne = enemy.GetComponent<BotMoveLogic>();
+                if (leonardoRef != null)
+                {
+                    movementEne.target = leonardoRef.transform;
+                }
+            }
         }
     }
 

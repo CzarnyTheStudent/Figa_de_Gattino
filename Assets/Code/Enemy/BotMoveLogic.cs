@@ -16,13 +16,14 @@ public class BotMoveLogic : MonoBehaviour
             
             // Oblicz odległość między przeciwnikiem a celem
             float distanceToTarget = Vector3.Distance(transform.position, target.position);
+            transform.rotation = Quaternion.LookRotation(direction);
 
             // Jeśli odległość do celu jest większa niż odległość zatrzymania, przemieszczaj się w jego kierunku
             if (distanceToTarget > stoppingDistance)
             {
                 //transform.Translate(direction * moveSpeed * Time.deltaTime);
                 transform.position += direction * moveSpeed * Time.deltaTime; 
-                transform.rotation = Quaternion.LookRotation(direction);
+                
             }
             else // W przeciwnym razie zatrzymaj się
             {
