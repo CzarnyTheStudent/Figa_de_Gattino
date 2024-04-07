@@ -4,6 +4,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public int damage;
+    public bool destrMe = true;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -11,14 +12,20 @@ public class Bullet : MonoBehaviour
         {
             Health health = other.gameObject.GetComponent<Health>();
             health.TakeDamage(damage);
-            Destroy(gameObject);
+            if (destrMe)
+            {
+                Destroy(gameObject);
+            }
         }
         
         if (other.gameObject.GetComponent<CatHealth>())
         {
             CatHealth catHealth = other.gameObject.GetComponent<CatHealth>();
             catHealth.TakeDamage();
-            Destroy(gameObject);
+            if (destrMe)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

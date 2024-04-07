@@ -8,9 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo 1.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Angelo/Angelo.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/descending.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Angelo/descending.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/laserEyesOut.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anim/Architekt/ARCHITEKT2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Architekt/ARCHITEKT2.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/Angelo/laserEyes.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Angelo/laserEyes.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Cat/CatGoldMenagement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Cat/CatGoldMenagement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/BotMoveLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/BotMoveLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/GoldAndLvlUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/GoldAndLvlUp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Angelo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Angelo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" afterDir="false" />
     </list>
@@ -21,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/AngelloFailTheMission.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/AngeloShootLasers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Cat/BossSpawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Cat/Meow.cs" root0="FORCE_HIGHLIGHTING" />
@@ -120,7 +123,7 @@
       <updated>1712402469148</updated>
       <workItem from="1712402470208" duration="26019000" />
       <workItem from="1712430698759" duration="624000" />
-      <workItem from="1712466213405" duration="27794000" />
+      <workItem from="1712466213405" duration="30105000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <option name="closed" value="true" />

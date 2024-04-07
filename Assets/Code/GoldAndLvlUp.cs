@@ -24,6 +24,7 @@ public class GoldAndLvlUp : MonoBehaviour
             if (catGoldScript != null)
             {
                 CollectGoldFromCat(catGoldScript);
+                catGoldScript.UpdateGoldText();
             }
         }
     }

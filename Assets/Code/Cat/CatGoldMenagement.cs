@@ -35,7 +35,7 @@ public class CatGoldMenagement : MonoBehaviour
         catGoldAmount += amount;
     }
 
-    private void UpdateGoldText()
+    public void UpdateGoldText()
     {
         // Aktualizuj tekst na obiekcie TextMeshPro
         goldText.text = ":" + catGoldAmount.ToString();
