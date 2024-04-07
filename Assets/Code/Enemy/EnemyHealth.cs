@@ -9,7 +9,9 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private GameObject coinPrefab;
     [SerializeField] private GameObject potionPref;
     private Transform _transformMe;
-    
+    public float knockbackDistance = 1.0f;
+    public float knockbackDuration = 0.2f; // Czas trwania odrzutu
+
     private void Update()
     {
         _transformMe = transform;
@@ -28,5 +30,20 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damageAmount)
     {
         botHealth -= damageAmount;
+        StartCoroutine(SmoothKickCoroutine());
+    }
+
+    IEnumerator SmoothKickCoroutine()
+    {
+        Vector3 targetPosition = transform.position + -transform.forward * knockbackDistance;
+        Vector3 startPosition = transform.position;
+        float startTime = Time.time;
+
+        while (Time.time < startTime + knockbackDuration)
+        {
+            float t = (Time.time - startTime) / knockbackDuration;
+            transform.position = Vector3.Lerp(startPosition, targetPosition, t);
+            yield return null;
+        }
     }
 }
