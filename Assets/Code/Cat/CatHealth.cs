@@ -13,6 +13,7 @@ public class CatHealth : MonoBehaviour
     public int catCurrentHealth = 9; // Aktualne zdrowie
     public Image[] hearts; // Tablica obrazk�w serduszek
     public PostProcessVolume postProcessVolume;
+    public CatMove catMove;
 
     void Start()
     {
@@ -34,6 +35,7 @@ public class CatHealth : MonoBehaviour
         CatMove moveCat = GetComponent<CatMove>();
         postProcessVolume.enabled = true;
         moveCat.enabled = false;
+        catMove.catAnim.SetBool("Move", false);
         yield return new WaitForSeconds(9f);
         postProcessVolume.enabled = false;
         moveCat.enabled = true;

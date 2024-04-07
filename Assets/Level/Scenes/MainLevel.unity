@@ -6454,7 +6454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &989508325
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13788,6 +13788,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 884853861}
     - target: {fileID: 3675062854295941059, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: catMove
+      value: 
+      objectReference: {fileID: 300285096}
+    - target: {fileID: 3675062854295941059, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: postProcessVolume
       value: 
       objectReference: {fileID: 963194229}
@@ -13853,7 +13857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: m_CollisionDetection
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits

@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 338d985825cd39b48be0bfa7833b287b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botHealth: 30
+  botHealth: 50
   coinPrefab: {fileID: 3664029200740380941, guid: a2532d0b051c07b46ac4ab66ddf590ee, type: 3}
   potionPref: {fileID: 8070389605039313939, guid: 9eea19e20aaa9d544899e1cece672670, type: 3}
   knockbackDistance: 1

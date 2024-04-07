@@ -7,7 +7,7 @@ public class CatMove : MonoBehaviour
     public Transform cameraTarget; 
     public float cameraDistance = 5f; 
     public float cameraHeight = 5f; 
-    [SerializeField]private Animator catAnim;
+    public Animator catAnim;
 
     private Rigidbody rb;
     private Vector3 moveDirection = Vector3.zero;
