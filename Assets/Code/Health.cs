@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
         {
             Destroy(gameObject);
             
-            // tutaj daæ you died
+            // tutaj daÄ‡ you died
             gameOverTimerTxt.text = "Your Time: " + timer.currentTime.ToString();
         }
     }
