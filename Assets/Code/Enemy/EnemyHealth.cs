@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
 
     [SerializeField] private GameObject coinPrefab;
 
+
     private void Update()
     {
         if (botHealth == 0)
