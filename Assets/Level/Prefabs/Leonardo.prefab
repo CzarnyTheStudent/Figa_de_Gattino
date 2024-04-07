@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 8073147771849423422}
   - component: {fileID: 7815662473725877313}
   - component: {fileID: -4668021665492119278}
+  - component: {fileID: 2643773382735788446}
   - component: {fileID: 3869919710039563334}
   m_Layer: 0
   m_Name: Leonardo
@@ -184,6 +185,22 @@ MonoBehaviour:
   weaponLifeTime: 1
   weaponPrefab: {fileID: 5211839792648163497, guid: c082bf2694fd0374e825e2df500aa001, type: 3}
   throwPoint: {fileID: 6714720014166224673}
+--- !u!114 &2643773382735788446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4598696954682675076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65e10ac6c10d9c48bbe554f64832a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swingTime: 2
+  weaponLifeTime: 1173.1
+  weaponPrefab: {fileID: 5211839792648163497, guid: 6f9f0cbc869515e4bbae3398fe9f0510, type: 3}
+  throwPoint: {fileID: 6714720014166224673}
 --- !u!114 &3869919710039563334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,6 +216,7 @@ MonoBehaviour:
   health: 10
   gameOverTimerTxt: {fileID: 0}
   timer: {fileID: 0}
+  bar: {fileID: 0}
 --- !u!1001 &4460923869341081806
 PrefabInstance:
   m_ObjectHideFlags: 0
