@@ -343,8 +343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 870fae8737bfb3043ae89744f4a44d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitDamage: 7
-  hitTime: 2
+  hitDamage: 11
+  hitTime: 4
   pushDistance: 0
 --- !u!114 &-1337092748750736879
 MonoBehaviour:
@@ -377,6 +377,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AngelloHealth: {fileID: -1337092748750736879}
   winGame: {fileID: 0}
+  healthBar: {fileID: 0}
+  lvlBar: {fileID: 0}
+  lvlDisplay: {fileID: 0}
+  imieLeonardo: {fileID: 0}
+  imieFigi: {fileID: 0}
+  potionBackground: {fileID: 0}
+  hearth1: {fileID: 0}
+  hearth2: {fileID: 0}
+  hearth3: {fileID: 0}
+  hearth4: {fileID: 0}
+  hearth5: {fileID: 0}
+  hearth6: {fileID: 0}
+  hearth7: {fileID: 0}
+  hearth8: {fileID: 0}
+  hearth9: {fileID: 0}
 --- !u!114 &1402193387149009639
 MonoBehaviour:
   m_ObjectHideFlags: 0
