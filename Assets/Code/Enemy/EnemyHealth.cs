@@ -6,22 +6,22 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int botHealth;
-
     [SerializeField] private GameObject coinPrefab;
-
-
+    [SerializeField] private GameObject potionPref;
+    private Transform _transformMe;
+    
     private void Update()
     {
+        _transformMe = transform;
         if (botHealth < 0)
         {
-            Transform objectTransform = transform;
-            Destroy(gameObject);
-
-            GameObject coinInst = Instantiate(coinPrefab, objectTransform.position, Quaternion.identity); // spawn of coin
-            if (UnityEngine.Random.Range(1, 10) == 1)
+            GameObject coinInst = Instantiate(coinPrefab, _transformMe.position, Quaternion.identity); // spawn of coin
+            coinInst.transform.position = _transformMe.position;
+            if (UnityEngine.Random.Range(5, 10) == 5)
             {
-                GameObject coinInst2 = Instantiate(coinPrefab, objectTransform.position, Quaternion.identity); // LATER spawm of potion
+                GameObject potionInst = Instantiate(potionPref, _transformMe.position, Quaternion.identity); // spawn of coin
             }
+            Destroy(gameObject);
         }
     }
 

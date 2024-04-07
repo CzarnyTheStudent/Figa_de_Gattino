@@ -10,13 +10,15 @@ public class CatGoldMenagement : MonoBehaviour
     public int catPotionAmount = 0;
     public TextMeshProUGUI goldText; // Referencja do obiektu TextMeshPro
     public Image potionImage;
+    public CoinSoundManager coinSound;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Coin"))
         {
-            AddGold(20);
+            AddGold(2);
             Destroy(other.gameObject);
+            StartCoroutine(coinSound.PlayCoinSoundPickUp());
             UpdateGoldText(); // Aktualizuj tekst na obiekcie TextMeshPro
         }
 

@@ -166,7 +166,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   botHealth: 2
-  coinPrefab: {fileID: 0}
+  coinPrefab: {fileID: 3664029200740380941, guid: a2532d0b051c07b46ac4ab66ddf590ee, type: 3}
+  potionPref: {fileID: 8070389605039313939, guid: 9eea19e20aaa9d544899e1cece672670, type: 3}
 --- !u!114 &4342070718585096617
 MonoBehaviour:
   m_ObjectHideFlags: 0
