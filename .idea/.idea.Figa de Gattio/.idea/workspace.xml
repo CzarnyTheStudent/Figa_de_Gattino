@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db18b333-0969-46bc-9341-050d8511acc8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anim/Figa/Figa.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Figa/Figa.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anim/Leonardo/leonardo2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Leonardo/leonardo2.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Models/brush 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/brush 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Cat/CatMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Cat/CatMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Cat/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Cat/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/BotMoveLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/BotMoveLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/baseWeapon/SwingMe.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/baseWeapon/SwingMe.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Shooter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Shooter.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +113,7 @@
       <updated>1712402469148</updated>
       <workItem from="1712402470208" duration="26019000" />
       <workItem from="1712430698759" duration="624000" />
-      <workItem from="1712466213405" duration="22700000" />
+      <workItem from="1712466213405" duration="23307000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <option name="closed" value="true" />

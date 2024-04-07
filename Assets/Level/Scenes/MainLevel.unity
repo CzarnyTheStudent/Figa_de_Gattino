@@ -3757,7 +3757,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 241855881}
-  - {fileID: 1963631442}
   - {fileID: 690868949}
   m_Father: {fileID: 789533303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5264,7 +5263,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -8862,7 +8861,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1739038819}
-  m_Father: {fileID: 1963631442}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11362,7 +11361,7 @@ CapsuleCollider:
   m_Radius: 0.08
   m_Height: 0
   m_Direction: 1
-  m_Center: {x: 0, y: -0.56, z: 0}
+  m_Center: {x: 0.25, y: -0.56, z: 0.07}
 --- !u!1 &1858424044
 GameObject:
   m_ObjectHideFlags: 0
@@ -12335,7 +12334,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -13025,7 +13024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: m_CollisionDetection
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
@@ -13121,16 +13120,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: objectsToSpawn.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: objectsToSpawn.Array.data[1].respawnTime
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: objectsToSpawn.Array.data[2].respawnTime
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: objectsToSpawn.Array.data[1].objectToRespawn
       value: 
       objectReference: {fileID: 5206236109184918126, guid: 00c8be93f6c073743b9158da503a1093, type: 3}
+    - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: objectsToSpawn.Array.data[2].objectToRespawn
+      value: 
+      objectReference: {fileID: 5206236109184918126, guid: ceb3488f85805104b98354a3e5c134e4, type: 3}
     - target: {fileID: 7557592724058663074, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -13180,3 +13187,4 @@ SceneRoots:
   - {fileID: 2999636138072384067}
   - {fileID: 1981266721}
   - {fileID: 916360396}
+  - {fileID: 1448479298}
