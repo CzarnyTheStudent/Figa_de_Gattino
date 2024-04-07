@@ -32,7 +32,7 @@ public class GoldAndLvlUp : MonoBehaviour
     {
         int catGoldAmount = catGoldScript.catGoldAmount;
         AddGold(catGoldAmount);
-        UpdateLeoGoldText();
+        //UpdateLeoGoldText();
         catGoldScript.catGoldAmount = 0;
     }
 
@@ -69,8 +69,8 @@ public class GoldAndLvlUp : MonoBehaviour
         }
     }
 
-    private void UpdateLeoGoldText()
+    /*private void UpdateLeoGoldText()
     {
         leoGoldText.text = "Leonardo's Gold: " + leonardosGoldAmount.ToString();
-    }
+    }*/
 }
