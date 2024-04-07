@@ -18,8 +18,8 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7070346216079935925
+  m_IsActive: 0
+--- !u!4 &8922379296109245417
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,8 +157,8 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8122048241165105872
+  m_IsActive: 0
+--- !u!4 &7655764605670722099
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -322,30 +322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Angelo
       objectReference: {fileID: 0}
-    - target: {fileID: 1991094925263791808, guid: 0db55598506a4d948be134feb61697a9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ccfbabe148ea74340a975cdc054937d4, type: 2}
-    - target: {fileID: 2372880781423700881, guid: 0db55598506a4d948be134feb61697a9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ccfbabe148ea74340a975cdc054937d4, type: 2}
-    - target: {fileID: 5121416101177332231, guid: 0db55598506a4d948be134feb61697a9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ccfbabe148ea74340a975cdc054937d4, type: 2}
-    - target: {fileID: 6961207809652552138, guid: 0db55598506a4d948be134feb61697a9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ccfbabe148ea74340a975cdc054937d4, type: 2}
-    - target: {fileID: 7998129008526130680, guid: 0db55598506a4d948be134feb61697a9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ccfbabe148ea74340a975cdc054937d4, type: 2}
-    - target: {fileID: 8449996119470504636, guid: 0db55598506a4d948be134feb61697a9, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ccfbabe148ea74340a975cdc054937d4, type: 2}
+    - target: {fileID: 4021961410629170994, guid: 0db55598506a4d948be134feb61697a9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
