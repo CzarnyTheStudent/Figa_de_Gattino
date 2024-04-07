@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db18b333-0969-46bc-9341-050d8511acc8" name="Changes" comment="" />
+    <list default="true" id="db18b333-0969-46bc-9341-050d8511acc8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Cat/CatHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Cat/CatHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/Assasin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/Assasin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Coin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Potion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Potion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/LeoMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/SwingWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Weapon/ColiDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@3.2.2/PostProcessing/Runtime/PostProcessLayer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -99,7 +113,7 @@
       <updated>1712402469148</updated>
       <workItem from="1712402470208" duration="26019000" />
       <workItem from="1712430698759" duration="624000" />
-      <workItem from="1712466213405" duration="10281000" />
+      <workItem from="1712466213405" duration="13527000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <option name="closed" value="true" />

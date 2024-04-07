@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6289317632595014091}
   - component: {fileID: 98462651121353774}
   - component: {fileID: 207428131034003965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Coin
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -171,6 +171,10 @@ PrefabInstance:
     - target: {fileID: 3479136929818597020, guid: 6ddd4c4f23a13384089b3ca0b4c23bfd, type: 3}
       propertyPath: m_Name
       value: Moneta
+      objectReference: {fileID: 0}
+    - target: {fileID: 3479136929818597020, guid: 6ddd4c4f23a13384089b3ca0b4c23bfd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4252436219687308326, guid: 6ddd4c4f23a13384089b3ca0b4c23bfd, type: 3}
       propertyPath: m_LocalScale.x

@@ -268,6 +268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9534711
@@ -342,6 +346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9534711
@@ -415,6 +423,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -553,6 +565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9534711
@@ -626,6 +642,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1033,6 +1053,27 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5fd20cb50626a1d49a3517125093495b, type: 3}
   coinPickUp: {fileID: 300285089}
   giveCoin: {fileID: 0}
+--- !u!65 &300285091
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300285077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0.99999994}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &304411446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,6 +1160,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -1328,6 +1373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9534711
@@ -1401,6 +1450,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1598,6 +1651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.95347124
@@ -1745,6 +1802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.312
@@ -1881,6 +1942,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -2091,6 +2156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.78
@@ -2216,6 +2285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.247
@@ -2277,6 +2350,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -2352,6 +2429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.95347124
@@ -2425,6 +2506,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2582,6 +2667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.43
@@ -2643,6 +2732,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -2717,6 +2810,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2855,6 +2952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.78
@@ -2914,7 +3015,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811539744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barierki
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3358,6 +3459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.63
@@ -3636,6 +3741,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 4.831
       objectReference: {fileID: 0}
+    - target: {fileID: 5206127730178470154, guid: da04c07c6e6bde4439ce987b4a3bd092, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6169821775224689538, guid: da04c07c6e6bde4439ce987b4a3bd092, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3732,6 +3845,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4084,6 +4201,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4534,6 +4655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.43
@@ -4596,6 +4721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.595001
@@ -4657,6 +4786,8 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194230}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4738,6 +4869,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: b19ece20851f88e42bbe58c5db9d4104, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 963194228}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 33
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &969587661
 GameObject:
   m_ObjectHideFlags: 0
@@ -4883,6 +5091,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5102,6 +5314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.43
@@ -5163,6 +5379,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5226,6 +5446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.0430005
@@ -5287,6 +5511,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5350,6 +5578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.9809995
@@ -5411,6 +5643,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5474,6 +5710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.012001276
@@ -5535,6 +5775,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -5610,6 +5854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.595
@@ -5676,6 +5924,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -5751,6 +6003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.78
@@ -5812,6 +6068,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5969,6 +6229,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1230700803}
   m_CullTransparentMesh: 1
+--- !u!1 &1232982476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7557592724058663074, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+  m_PrefabInstance: {fileID: 2999636138072384067}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1232982478
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232982476}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Radius: 1.32
+  m_Center: {x: 0, y: 0, z: 0.57}
+--- !u!54 &1232982479
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232982476}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 2
 --- !u!1001 &1242743162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5980,6 +6293,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6493,6 +6810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.6
@@ -6705,6 +7026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.917
@@ -6901,6 +7226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.43
@@ -6962,6 +7291,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7025,6 +7358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.78
@@ -7086,6 +7423,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7149,6 +7490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.420001
@@ -7210,6 +7555,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -7284,6 +7633,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7422,6 +7775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.95347124
@@ -7495,6 +7852,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -7570,6 +7931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.43
@@ -7631,6 +7996,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7940,6 +8309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.78
@@ -8001,6 +8374,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -8076,6 +8453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.1330004
@@ -8137,6 +8518,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8200,6 +8585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.0630007
@@ -8262,6 +8651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.89
@@ -8323,6 +8716,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -8398,6 +8795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.957
@@ -8460,6 +8861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.282
@@ -8521,6 +8926,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -8596,6 +9005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.162001
@@ -8657,6 +9070,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8720,6 +9137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.202
@@ -8781,6 +9202,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8844,6 +9269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.0499983
@@ -8906,6 +9335,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.025998
@@ -8967,6 +9400,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9169,6 +9606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.11
@@ -9231,7 +9672,7 @@ GameObject:
   - component: {fileID: 1895575415}
   - component: {fileID: 1895575414}
   - component: {fileID: 1895575413}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9336,6 +9777,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -9678,6 +10123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.434
@@ -9873,6 +10322,10 @@ PrefabInstance:
     - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_Name
       value: Barierki (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10079,6 +10532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.01
@@ -10140,6 +10597,10 @@ PrefabInstance:
     - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_Name
       value: Beczka (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
@@ -10215,6 +10676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beczka (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 463007425630561277, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 947794830629779783, guid: 63c66e13c223ece47b8b7c94334cdc63, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.9534711
@@ -10289,6 +10754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barierki (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 4865755061792666069, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5245975440853937007, guid: 013f2acdc388f694f8d4dba26633873f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.173
@@ -10360,6 +10829,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 884853861}
     - target: {fileID: 3675062854295941059, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: postProcessVolume
+      value: 
+      objectReference: {fileID: 963194229}
+    - target: {fileID: 3675062854295941059, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: hearts.Array.data[0]
       value: 
       objectReference: {fileID: 1455202873}
@@ -10398,6 +10871,22 @@ PrefabInstance:
     - target: {fileID: 3882499769626646764, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: m_Name
       value: Figa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984925311507400265, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5779932314940340263, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10443,6 +10932,18 @@ PrefabInstance:
       propertyPath: leonardoRef
       value: 
       objectReference: {fileID: 1181076452}
+    - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: objectsToSpawn.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: objectsToSpawn.Array.data[1].respawnTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385811370699644773, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      propertyPath: objectsToSpawn.Array.data[1].objectToRespawn
+      value: 
+      objectReference: {fileID: 5206236109184918126, guid: 00c8be93f6c073743b9158da503a1093, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10459,6 +10960,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3882499769626646764, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 300285089}
+    - targetCorrespondingSourceObject: {fileID: 3882499769626646764, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 300285091}
+    - targetCorrespondingSourceObject: {fileID: 7557592724058663074, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1232982478}
+    - targetCorrespondingSourceObject: {fileID: 7557592724058663074, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1232982479}
   m_SourcePrefab: {fileID: 100100000, guid: 0177ccd33eff3e84fbc0647d69d8afaa, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

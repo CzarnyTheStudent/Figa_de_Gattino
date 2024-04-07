@@ -13,6 +13,11 @@ public class Assassin : MonoBehaviour
         {
             StartCoroutine(HitAndRevert(other.transform)); // Uruchom Coroutine, aby obsłużyć uderzenie i powrót
         }
+        if (other.gameObject.GetComponent<CatHealth>())
+        {
+            CatHealth catHealth = other.gameObject.GetComponent<CatHealth>();
+            catHealth.TakeDamage();
+        }
     }
 
     IEnumerator HitAndRevert(Transform targetTransform)

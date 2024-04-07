@@ -153,7 +153,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 84
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &7257246766687815311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,6 +173,7 @@ MonoBehaviour:
   - {fileID: 2643773382735788446}
   leoGoldText: {fileID: 0}
   lvlbar: {fileID: 0}
+  levelUIDisplay: {fileID: 0}
 --- !u!114 &8073147771849423422
 MonoBehaviour:
   m_ObjectHideFlags: 0

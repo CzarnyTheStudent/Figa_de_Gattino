@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4058994178520491088}
   - component: {fileID: 3389609209070057824}
   - component: {fileID: 6831180178707964603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Potion
   m_TagString: Potion
   m_Icon: {fileID: 0}
@@ -166,9 +166,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7451623743531964200}
     m_Modifications:
+    - target: {fileID: 4563660995041123569, guid: c7e61986f6df7384c8b2df4bfcdf3c89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4650912811557710704, guid: c7e61986f6df7384c8b2df4bfcdf3c89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6977603444397351801, guid: c7e61986f6df7384c8b2df4bfcdf3c89, type: 3}
       propertyPath: m_Name
       value: Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977603444397351801, guid: c7e61986f6df7384c8b2df4bfcdf3c89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7754844453384812995, guid: c7e61986f6df7384c8b2df4bfcdf3c89, type: 3}
       propertyPath: m_LocalScale.x
