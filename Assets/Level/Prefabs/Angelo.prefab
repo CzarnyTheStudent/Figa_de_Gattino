@@ -50,7 +50,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8922379296109245417
 Transform:
   m_ObjectHideFlags: 0
@@ -157,7 +157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7655764605670722099
 Transform:
   m_ObjectHideFlags: 0
@@ -297,6 +297,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 0db55598506a4d948be134feb61697a9, type: 3}
       propertyPath: m_Name
       value: Angelo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021961410629170994, guid: 0db55598506a4d948be134feb61697a9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
