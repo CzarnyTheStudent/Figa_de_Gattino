@@ -141,7 +141,6 @@ MonoBehaviour:
   botHealth: 2
   coinPrefab: {fileID: 3664029200740380941, guid: a2532d0b051c07b46ac4ab66ddf590ee, type: 3}
   potionPref: {fileID: 8070389605039313939, guid: 9eea19e20aaa9d544899e1cece672670, type: 3}
-  knockbackForce: 20
   knockbackDistance: 6
   knockbackDuration: 0.4
 --- !u!54 &7957496802692025633
@@ -184,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitDamage: 10
-  hitTime: 0
+  hitTime: 1
   pushDistance: 1
 --- !u!1001 &8795318865212006390
 PrefabInstance:
