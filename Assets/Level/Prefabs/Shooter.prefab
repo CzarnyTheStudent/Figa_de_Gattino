@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 5206236109184918126}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.6685476, y: 1.2, z: -6.57}
+  m_LocalPosition: {x: 4.6685476, y: 0, z: -6.57}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -109,8 +109,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 2.0998266, z: 1}
-  m_Center: {x: 0, y: 0.5499133, z: 0}
+  m_Size: {x: 0.8677748, y: 2.0998266, z: 0.77177525}
+  m_Center: {x: 0, y: 0.54991335, z: 0}
 --- !u!54 &7957496802692025633
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   moveSpeed: 3
-  stoppingDistance: 10
+  stoppingDistance: 25
   isMoving: 1
 --- !u!114 &1842489916678060817
 MonoBehaviour:
@@ -169,8 +169,7 @@ MonoBehaviour:
   botHealth: 2
   coinPrefab: {fileID: 3664029200740380941, guid: a2532d0b051c07b46ac4ab66ddf590ee, type: 3}
   potionPref: {fileID: 8070389605039313939, guid: 9eea19e20aaa9d544899e1cece672670, type: 3}
-  knockbackForce: 20
-  knockbackDistance: 6
+  knockbackDistance: 5
   knockbackDuration: 0.4
 --- !u!114 &4342070718585096617
 MonoBehaviour:
@@ -187,8 +186,8 @@ MonoBehaviour:
   botMove: {fileID: 5773000206930972644}
   bulletPrefab: {fileID: 4971383696549456308, guid: 6e57d981a846fa348879dbcb948e6cfd, type: 3}
   bulletSpawnPoint: {fileID: 493241878534948441}
-  bulletSpeed: 10
-  fireRate: 1
+  bulletSpeed: 8
+  fireRate: 0.1
 --- !u!1 &5979856827730975368
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +213,7 @@ Transform:
   m_GameObject: {fileID: 5979856827730975368}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.764}
+  m_LocalPosition: {x: 0, y: 0.869, z: 0.924}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -250,7 +249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5171880955232042723, guid: 93cf472031afc5d41a1e28676f8a0728, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.085
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 5171880955232042723, guid: 93cf472031afc5d41a1e28676f8a0728, type: 3}
       propertyPath: m_LocalPosition.z

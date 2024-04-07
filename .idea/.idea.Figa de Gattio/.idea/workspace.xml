@@ -7,19 +7,18 @@
     <list default="true" id="db18b333-0969-46bc-9341-050d8511acc8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anim/Figa/Figa.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Figa/Figa.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anim/baseWeapon/SwingMe.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/baseWeapon/SwingMe.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anim/Leonardo/leonardo2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anim/Leonardo/leonardo2.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Art/Models/brush 1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/brush 1.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Models/brush.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Models/brush.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/EnemyHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Assasin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Assasin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Coin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Potion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Potion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Second Weapon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Second Weapon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Cat/CatMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Cat/CatMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Cat/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Cat/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/BotMoveLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/BotMoveLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Shooter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Shooter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Third Weapon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Third Weapon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Weapon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Weapon.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Code/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Cat/Meow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/CoinSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/DONTFUCKINGOOUTSIDE.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy/Shooters.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GameLogic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/GoldAndLvlUp.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,6 +69,14 @@
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../sggsg\Figa_Kitti.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\kpabinia\Desktop\sggsg" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\kpabinia\Desktop\Figa de Gattio&quot; -debugCodeOptimization" />
@@ -116,7 +124,7 @@
       <updated>1712402469148</updated>
       <workItem from="1712402470208" duration="26019000" />
       <workItem from="1712430698759" duration="624000" />
-      <workItem from="1712466213405" duration="17467000" />
+      <workItem from="1712466213405" duration="22700000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <option name="closed" value="true" />
