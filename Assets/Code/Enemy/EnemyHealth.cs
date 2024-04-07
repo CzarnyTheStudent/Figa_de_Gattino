@@ -12,7 +12,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Update()
     {
-        if (botHealth == 0)
+        if (botHealth < 0)
         {
             Transform objectTransform = transform;
             Destroy(gameObject);

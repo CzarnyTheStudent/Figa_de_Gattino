@@ -22,8 +22,6 @@ public class Assassin : MonoBehaviour
         Vector3 originalPosition = transform.position;
         Vector3 targetPosition = transform.position + transform.forward * pushDistance;
         float elapsedTime = 0f;
-        
-        Debug.Log("istnieje");
 
         while (elapsedTime < hitTime)
         {

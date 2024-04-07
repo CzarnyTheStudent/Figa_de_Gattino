@@ -10,7 +10,7 @@ public class Health : MonoBehaviour
     public int health;
 
     public TextMeshProUGUI gameOverTimerTxt;
-    public PanelControl panel;
+    public PanelControl deadthScreen;
 
     public TimerScript timer;
 
@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
     {
         if (health < 0)
         {
-            panel.ShowPanel();
+            deadthScreen.ShowPanel();
             Destroy(gameObject);
             
             // tutaj dać you died
