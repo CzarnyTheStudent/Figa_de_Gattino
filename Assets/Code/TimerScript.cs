@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; // Dodaj to, aby korzystaæ z TextMeshPro
+using TMPro;
 
 public class TimerScript : MonoBehaviour
 {
     public float currentTime;
     public bool timerOn = false;
 
-    public TextMeshProUGUI timerTxt; // U¿ywamy TextMeshProUGUI dla TextMeshPro
+    public TextMeshProUGUI timerTxt; // Uï¿½ywamy TextMeshProUGUI dla TextMeshPro
 
     void Start()
     {

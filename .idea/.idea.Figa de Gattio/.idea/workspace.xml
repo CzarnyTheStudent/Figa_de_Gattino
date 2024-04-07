@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="db18b333-0969-46bc-9341-050d8511acc8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Figa de Gattio/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/Assasin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/Assasin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy/EnemyHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/GameLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/GameLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Cat/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Cat/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/GoldAndLvlUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/GoldAndLvlUp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Leonardo.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/TimerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/TimerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level/Prefabs/Assasin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Prefabs/Assasin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level/Scenes/MainLevel.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,7 @@
       <updated>1712402469148</updated>
       <workItem from="1712402470208" duration="26019000" />
       <workItem from="1712430698759" duration="624000" />
-      <workItem from="1712466213405" duration="1349000" />
+      <workItem from="1712466213405" duration="2319000" />
     </task>
     <task id="LOCAL-00001" summary="First steps">
       <option name="closed" value="true" />

@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
             Destroy(gameObject);
             
             // tutaj dać you died
-            gameOverTimerTxt.text = "Your Time: " + timer.currentTime.ToString();
+            gameOverTimerTxt.text = "Your Time: " + timer.timerTxt.text;
         }
     }
 

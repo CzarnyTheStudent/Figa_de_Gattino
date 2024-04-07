@@ -64,7 +64,6 @@ public class GoldAndLvlUp : MonoBehaviour
 
     private void UpdateLeoGoldText()
     {
-        // Aktualizuj tekst na obiekcie TextMeshPro
         leoGoldText.text = "Leonardo's Gold: " + leonardosGoldAmount.ToString();
     }
 }

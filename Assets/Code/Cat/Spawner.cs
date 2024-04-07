@@ -66,7 +66,10 @@ public class Spawner : MonoBehaviour
             // Zrespawnowanie obiektu
           var enemy =  Instantiate(objectToSpawn.objectToRespawn, spawnPoints[spawnIndex].position, Quaternion.identity);
           BotMoveLogic movementEne = enemy.GetComponent<BotMoveLogic>();
-          movementEne.target = leonardoRef.transform;
+          if (!leonardoRef)
+          {
+              movementEne.target = leonardoRef.transform;
+          }
         }
     }
 
