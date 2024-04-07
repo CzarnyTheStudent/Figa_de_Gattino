@@ -14,6 +14,8 @@ public class GoldAndLvlUp : MonoBehaviour
     public TextMeshProUGUI leoGoldText;
     public RectTransform lvlbar;
 
+    public TextMeshProUGUI levelUIDisplay;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Cat"))
@@ -46,6 +48,8 @@ public class GoldAndLvlUp : MonoBehaviour
         {
             leonardosGoldAmount = 0;
             level++;
+            levelUIDisplay.text = "Level:" + level.ToString();
+
             lvlbar.localScale = new Vector3(leonardosGoldAmount/(10*level), 1f, 1f);
 
             for (int i = 0; i < level; i++)
