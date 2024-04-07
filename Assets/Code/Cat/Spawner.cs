@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
     public float distanceFromObject = 2f; // Odległość punktów respawnu od obiektu
     public ObjectToSpawn[] objectsToSpawn;
     private List<Transform> spawnPoints = new List<Transform>(); // Punkty respawnu
-    [HideInInspector]public GameObject leonardoRef;
+    public GameObject leonardoRef;
 
     void Start()
     {
@@ -66,7 +66,7 @@ public class Spawner : MonoBehaviour
             // Zrespawnowanie obiektu
           var enemy =  Instantiate(objectToSpawn.objectToRespawn, spawnPoints[spawnIndex].position, Quaternion.identity);
           BotMoveLogic movementEne = enemy.GetComponent<BotMoveLogic>();
-          if (!leonardoRef)
+          if (leonardoRef != null)
           {
               movementEne.target = leonardoRef.transform;
           }

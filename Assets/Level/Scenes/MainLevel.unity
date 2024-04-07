@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   figa: {fileID: 1858424044}
   leonardo: {fileID: 1181076452}
-  spawner: {fileID: 0}
+  spawner: {fileID: 1858424051}
 --- !u!4 &670603869
 Transform:
   m_ObjectHideFlags: 0
@@ -1434,7 +1434,7 @@ RectTransform:
   m_GameObject: {fileID: 789916360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 281363557}
@@ -3755,6 +3755,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4598696954682675076, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
   m_PrefabInstance: {fileID: 1243256244}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1181076455 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2643773382735788446, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
+  m_PrefabInstance: {fileID: 1243256244}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181076452}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b65e10ac6c10d9c48bbe554f64832a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1212120129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4010,6 +4021,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 670603870}
     - target: {fileID: 3869919710039563334, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869919710039563334, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 922260380}
+    - target: {fileID: 3869919710039563334, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
       propertyPath: deadthScreen
       value: 
       objectReference: {fileID: 1870678312}
@@ -4073,8 +4092,20 @@ PrefabInstance:
       propertyPath: leoGoldText
       value: 
       objectReference: {fileID: 649274918}
+    - target: {fileID: 7257246766687815311, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
+      propertyPath: componentsList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257246766687815311, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
+      propertyPath: componentsList.Array.data[1]
+      value: 
+      objectReference: {fileID: 1181076455}
     - target: {fileID: 7567869332109888137, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
       propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815662473725877313, guid: 6ba5c8f8ee9bd904d9647cc689249071, type: 3}
+      propertyPath: swingTime
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

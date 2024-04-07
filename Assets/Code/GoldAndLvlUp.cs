@@ -37,25 +37,28 @@ public class GoldAndLvlUp : MonoBehaviour
     private void AddGold(int amount)
     {
         leonardosGoldAmount += amount;
-        Debug.Log("Zdobyles " + amount + " złota! Aktualna ilość złota: " + leonardosGoldAmount);
+        //Debug.Log("Zdobyles " + amount + " złota! Aktualna ilość złota: " + leonardosGoldAmount);
 
-        float levelPercentage = leonardosGoldAmount / 20 * level;
+        float levelPercentage = leonardosGoldAmount / (10f * level);
         lvlbar.localScale = new Vector3(levelPercentage, 1f, 1f);
 
-        if (leonardosGoldAmount >= 20*level)
+        if (leonardosGoldAmount >= 10*level)
         {
             leonardosGoldAmount = 0;
             level++;
-            lvlbar.localScale = new Vector3(leonardosGoldAmount/20*level, 1f, 1f);
+            lvlbar.localScale = new Vector3(leonardosGoldAmount/(10*level), 1f, 1f);
 
             for (int i = 0; i < level; i++)
             {
-                if (componentsList[i] != null)
+                if (level <= componentsList.Count)
                 {
-                    Behaviour behaviourComponent = componentsList[i] as Behaviour;
-                    if (behaviourComponent != null)
+                    if (componentsList[i] != null)
                     {
-                    behaviourComponent.enabled = true;
+                        Behaviour behaviourComponent = componentsList[i] as Behaviour;
+                        if (behaviourComponent != null)
+                        {
+                            behaviourComponent.enabled = true;
+                        }
                     }
                 }
             }

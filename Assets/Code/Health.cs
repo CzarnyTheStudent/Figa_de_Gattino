@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
 
     public TimerScript timer;
 
-    public RectTransform bar;
+    public RectTransform healthBar;
 
     private void Update()
     {
@@ -28,11 +28,25 @@ public class Health : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.GetComponent<CatGoldMenagement>())
+        {
+            CatGoldMenagement healMe = other.gameObject.GetComponent<CatGoldMenagement>(); 
+            healMe.catPotionAmount = 0;
+            health += 50;
+            if (health > 100)
+            {
+                health = 100;
+            }
+        }
+    }
+
     public void TakeDamage(int damageAmount)
     {
         health -= damageAmount;
 
         float healthPercentage = health / 100f;
-        bar.localScale = new Vector3(healthPercentage, 1f, 1f);
+        healthBar.localScale = new Vector3(healthPercentage, 1f, 1f);
     }
 }
