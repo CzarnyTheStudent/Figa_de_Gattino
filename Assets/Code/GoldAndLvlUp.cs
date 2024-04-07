@@ -37,7 +37,7 @@ public class GoldAndLvlUp : MonoBehaviour
     private void AddGold(int amount)
     {
         leonardosGoldAmount += amount;
-        //Debug.Log("Zdobyles " + amount + " złota! Aktualna ilość złota: " + leonardosGoldAmount);
+        Debug.Log("Zdobyles " + amount + " złota! Aktualna ilość złota: " + leonardosGoldAmount);
 
         float levelPercentage = leonardosGoldAmount / (10f * level);
         lvlbar.localScale = new Vector3(levelPercentage, 1f, 1f);

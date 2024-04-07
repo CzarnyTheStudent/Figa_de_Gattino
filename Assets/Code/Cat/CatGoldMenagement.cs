@@ -9,7 +9,6 @@ public class CatGoldMenagement : MonoBehaviour
     public int catGoldAmount = 0;
     public int catPotionAmount = 0;
     public TextMeshProUGUI goldText; // Referencja do obiektu TextMeshPro
-
     public Image potionImage;
 
     private void OnTriggerEnter(Collider other)

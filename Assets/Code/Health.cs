@@ -34,6 +34,7 @@ public class Health : MonoBehaviour
         {
             CatGoldMenagement healMe = other.gameObject.GetComponent<CatGoldMenagement>(); 
             healMe.catPotionAmount = 0;
+            healMe.potionImage.gameObject.SetActive(false);
             health += 50;
             if (health > 100)
             {
